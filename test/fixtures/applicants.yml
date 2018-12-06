@@ -1,0 +1,38 @@
+# == Schema Information
+#
+# Table name: applicants
+#
+#  id               :bigint(8)        not null, primary key
+#  status           :string           default("pending"), not null
+#  role             :string           not null
+#  email            :string           not null
+#  canonical_email  :string           not null
+#  first_name       :string           not null
+#  last_name        :string           not null
+#  url              :string           not null
+#  monthly_visitors :string
+#  company_name     :string
+#  monthly_budget   :string
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  url: MyString
+  visitors_per_month: MyString
+  email: MyString
+  role: MyString
+  status: MyString
+
+two:
+  first_name: MyString
+  last_name: MyString
+  url: MyString
+  visitors_per_month: MyString
+  email: MyString
+  role: MyString
+  status: MyString

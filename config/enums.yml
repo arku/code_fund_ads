@@ -75,6 +75,15 @@ USER_ROLES:
   - advertiser
   - publisher
 
+APPLICANT_STATUSES:
+  - pending
+  - accepted
+  - rejected
+
+APPLICANT_ROLES:
+  - advertiser
+  - publisher
+
 CAMPAIGN_STATUSES:
   - pending
   - active
